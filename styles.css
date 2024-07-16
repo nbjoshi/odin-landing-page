@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    display: flex;
+}
+
+.top-header-rightside ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.top-header-rightside ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-content {
+    display: flex;
+}
