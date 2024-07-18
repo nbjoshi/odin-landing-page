@@ -7,6 +7,7 @@
 .header {
     background: #1F2937;
     color: white;
+    padding: 10px 120px;
 }
 
 .top {
@@ -23,7 +24,9 @@
 .top-right {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
+
 .top-right a {
     color: white;
     text-decoration: none;
@@ -34,17 +37,22 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: flex;
+    margin-top: 120px;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .bottom-left h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .bottom-left p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 .bottom-left button {
