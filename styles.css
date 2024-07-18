@@ -86,6 +86,8 @@
 .section-two-card img {
     width: 60%;
     height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
 }
 
 .section-two h1 {
