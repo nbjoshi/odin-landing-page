@@ -1,28 +1,154 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
+/* Header */
+.header {
+    background: #1F2937;
+    color: white;
+}
+
 .top {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.top-header {
-    display: flex;
+.top-left {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.top-header-rightside ul {
+.top-right {
     display: flex;
     list-style: none;
-    gap: 15px;
 }
-
-.top-header-rightside ul li a {
+.top-right a {
+    color: white;
     text-decoration: none;
-    color: black;
 }
 
-.top-content {
+.bottom {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: flex;
+}
+
+.bottom-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.bottom-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bottom-left button {
+    background: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section Two */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+.section-two-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-two-card {
+    max-width: 215px;
+}
+
+.section-two-card img {
+    width: 60%;
+    height: auto;
+}
+
+.section-two h1 {
+    margin: 1em 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.section-two p {
+    max-width: 60%;
+    margin: 8px 0;
+}
+
+/* Section Three */
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 7em 22em;
+}
+
+.section-three .main {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.section-three .sub {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* Section Four */
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.section-four-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    height: 80px;
+}
+
+.section-four-right button {
+    background: #3882F6;
+    color: white;
+    border: solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
 }
